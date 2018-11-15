@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="way2Sms Suite" annotations="JDK" parallel="tests">
+         
+  <test name="LoginTest">
+	 <classes>
+	   <class name="com.way2sms.qa.testcases.LoginTest"/>
+	 </classes>
+   </test>
+   
+  <test name="SendSMS">
+     <classes>
+       <class name="com.way2sms.test.SendSMSTest"/>
+     </classes>
+   </test>
+</suite>
